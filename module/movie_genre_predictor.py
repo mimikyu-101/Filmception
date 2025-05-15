@@ -12,9 +12,9 @@ nltk.download('punkt')
 nltk.download('wordnet')
 
 class MovieGenrePredictor:
-    def __init__(self, model_path='lightgbm_genre_classifier.pkl', 
-                 tfidf_path='tfidf_vectorizer.pkl',
-                 genres_path='genre_columns.json'):
+    def __init__(self, model_path='modules\lightgbm_genre_classifier.pkl', 
+                 tfidf_path='modules\tfidf_vectorizer.pkl',
+                 genres_path='modules\genre_columns.json'):
         # Load model, vectorizer, and genre list
         self.model = joblib.load(model_path)
         self.tfidf = joblib.load(tfidf_path)
