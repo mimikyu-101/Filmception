@@ -9,6 +9,11 @@ It also translates the summary into different languages (currently in Urdu, Arab
   clone https://github.com/mimikyu-101/Filmception.git
   cd Filmception
 ```
+- Preferablly make python virtual environment
+```bash
+  python -m venv ai_project
+  .\ai_project\Scripts\activate
+```
 - Run the `requirements.txt` file
 ```bash
     python.exe -m pip install -r requirements.txt
