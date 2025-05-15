@@ -1,0 +1,4 @@
+Execute the model training (training.ipynb) and place the followig files in the modules directory.
+1. lightgbm_genre_classifier.pkl
+2. tfidf_vectorizer.pkl
+3. genre_columns.json
